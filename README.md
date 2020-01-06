@@ -1,2 +1,2 @@
 # Hotel Reservation System
-Made with Node.
+Made with Express.

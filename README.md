@@ -1,2 +1,2 @@
 # Hotel Reservation System
-Made with React.
+Made with Node.

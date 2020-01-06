@@ -1,0 +1,23 @@
+{
+  "name": "backendHotelMgmt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon server.js",
+    "webpack": "webpack --watch --mode development",
+    "start": "concurrently \"npm:server\" \"npm:webpack\""
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.4",
+    "nodemon": "^2.0.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}

@@ -7,7 +7,7 @@ let roomTypes = new Schema({
         type: String,
         required: true
     },
-    price: [new Schema({
+    price: new Schema({
         currency_code: {
             type: String,
             required: true
@@ -16,7 +16,7 @@ let roomTypes = new Schema({
             type: String,
             required: true
         }
-    })],
+    }),
     max_guest: {
         type: Number,
         required: true
